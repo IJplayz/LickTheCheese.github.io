@@ -15,7 +15,7 @@ html {
 }
 
 .box {
-    background: #fff;
+    background: #00ff00;
     padding: 20px;
     box-shadow: 5px 5px 0px #888888;
     margin-bottom: 30px;    
@@ -23,6 +23,6 @@ html {
 
 h1 {
     font-family: minecrafter;
-    color: #ff842a;
+    color: #000000;
     margin: 0;
 }
