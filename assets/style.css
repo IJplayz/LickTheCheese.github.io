@@ -1,0 +1,28 @@
+html {
+    background: #000000 url(term.gif);
+    background-repeat:no-repeat;
+    font-family: sans-serif;    
+}
+
+@font-face {
+    font-family: minecrafter;
+    src: url(minecrafter/Minecrafter.Reg.ttf);
+}
+
+.wrapper { 
+    width: 690px;
+    margin: 150px auto;
+}
+
+.box {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 5px 5px 0px #888888;
+    margin-bottom: 30px;    
+}
+
+h1 {
+    font-family: minecrafter;
+    color: #ff842a;
+    margin: 0;
+}
