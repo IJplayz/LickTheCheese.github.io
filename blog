@@ -1,0 +1,32 @@
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+    <title>LickTheCheese's Blog</title>
+</head>
+<body>    
+    <div class="wrapper">
+
+        <div class="box">
+            <h1 class="title">LickTheCheese's Blog</h1>
+            <p>this is where i blog things...</p>
+        </div>
+
+<!-- Box copy and paste -->
+
+        <div class="box">
+            <h1 class="title"></h1>
+            <p><hr></p>
+        </div>
+<!-- if you want to remove the <hr> for just a box -->
+
+        <div class="box">
+            <h1 class="title">Whaaat?</h1>
+            <p>why is there a box to here?</p>
+            <p>well guess what, im moving the blogs to this page because</p>
+            <p>there were to many things in that page.</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
