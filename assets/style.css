@@ -21,6 +21,10 @@ html {
     margin-bottom: 30px;    
 }
 
+code {
+    background: #bcb;
+}
+
 h1 {
     font-family: minecrafter;
     color: #000000;
