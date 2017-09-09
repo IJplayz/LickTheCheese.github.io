@@ -26,6 +26,10 @@ iframe {
     margin-bottom: 30px;    
 }
 
+.small {
+    font-size: 0.8em;
+}
+
 code {
     background: #bcb;
 }
