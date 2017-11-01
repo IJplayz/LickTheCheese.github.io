@@ -1,2 +1,2 @@
 # LickTheCheese.github.io
-this is his website code.
+this is my website code.
