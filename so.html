@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Stay Open</title>
+<scrpt>
+window.addEventListener("beforeunload", function (e) {
+    var confirmationMessage = 'Are you shure you would like to leave?';
+
+    (e || window.event).returnValue = confirmationMessage; //Gecko + IE
+    return confirmationMessage; //Gecko + Webkit, Safari, Chrome etc.
+});
+</script>
+</head>
+<body>
+<p>Now people cant just press close.</p>
+</body>
+</html>
