@@ -2,7 +2,7 @@ html {
     background: #000000 url(/pics/greencat-banner.png);
     background-repeat:no-repeat;
     background-position: right top;
-    background-size: contain;
+    background-size: 128px 128px;
     font-family: sans-serif;    
 }
 
