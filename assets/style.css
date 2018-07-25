@@ -1,6 +1,7 @@
 html {
-    background: #000000 url(term.gif);
+    background: #000000 url(/pics/greencat-banner.png);
     background-repeat:no-repeat;
+    background-position: right;
     font-family: sans-serif;    
 }
 
