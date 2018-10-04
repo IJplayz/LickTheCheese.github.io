@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
 html {
     background: #000000 url(/pics/greencat-banner.png);
     background-repeat:no-repeat;
@@ -32,7 +34,7 @@ code {
 }
 
 h1 {
-    font-family: sans-serif;
+    font-family: 'Audiowide', cursive;
     color: #000000;
     margin: 0;
 }
