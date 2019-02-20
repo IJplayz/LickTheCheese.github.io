@@ -1,11 +1,28 @@
-@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
 
 html {
-    background: #000000 url(/pics/greencat-banner.png);
+    background: #000000 url("../pics/greencat-banner.png");
     background-repeat:no-repeat;
-    background-position: right top;
+    background-position: right bottom;
+    background-attachment: fixed;
     background-size: 256px;
-    font-family: sans-serif;    
+    font-family: 'Ubuntu', sans-serif; 
+    color: #0f0;
+}
+
+.banner-image {
+  background-image:  url("../pics/ltc_banner.png");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
 
 iframe {
@@ -16,13 +33,16 @@ iframe {
 .wrapper { 
     width: 690px;
     margin: 150px auto;
+    margin-top: 5px;
 }
 
 .box {
-    background: #00ff00;
+    background: #000;
+    border: 3px solid #0f0;
+    border-radius: 10px;
     padding: 20px;
     box-shadow: 5px 5px 0px #888888;
-    margin-bottom: 30px;    
+    margin-bottom: 30px;
 }
 
 .small {
@@ -34,13 +54,12 @@ code {
 }
 
 h1 {
-    font-family: 'Audiowide', cursive;
-    color: #000000;
+    color: #0F0;
     margin: 0;
 }
 
 button, .button {
-    background-color: #000000;
+    background-color: #111;
     border: none;
     color: #00ff00;
     padding: 15px 32px;
