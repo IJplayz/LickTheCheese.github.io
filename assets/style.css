@@ -71,3 +71,27 @@ button, .button {
     margin: 4px 2px;
     cursor: pointer;
 }
+
+.cbox2 {
+  float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+.cbox3 {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.cboxr:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .cbox2, cbox3 {
+    width: 100%;
+  }
+}
