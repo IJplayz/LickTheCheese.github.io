@@ -91,7 +91,7 @@ button, .button {
 }
 
 @media screen and (max-width:600px) {
-  .cbox2, cbox3 {
+  .cbox2, .cbox3 {
     width: 100%;
   }
 }
