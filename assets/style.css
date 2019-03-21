@@ -41,6 +41,7 @@ iframe {
     border: 3px solid #0f0;
     border-radius: 10px;
     padding: 20px;
+    padding-right: 0px;
     box-shadow: 5px 5px 0px #888888;
     margin-bottom: 30px;
 }
