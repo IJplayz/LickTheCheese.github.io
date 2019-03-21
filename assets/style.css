@@ -77,12 +77,14 @@ button, .button {
   float: left;
   width: 49%;
   padding: 15px;
+  padding-right: 0px;
 }
 
 .cbox3 {
   float: left;
   width: 32.33%;
   padding: 15px;
+  padding-right: 0px;
 }
 
 .cboxr:after {
