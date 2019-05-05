@@ -97,4 +97,7 @@ button, .button {
   .cbox2, .cbox3 {
     width: 100%;
   }
+  .wrapper {
+    width: 100%;
+  }
 }
