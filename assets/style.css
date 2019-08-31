@@ -17,6 +17,10 @@ html {
     color: #0f0;
 }
 
+a {
+    color: #3391ff;
+}
+
 .banner-image {
   background-image:  url("../pics/ltc_banner.png");
   height: 50%;
