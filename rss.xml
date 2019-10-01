@@ -12,6 +12,20 @@
 <!-- LB -->
 
 <item>
+<title>You should remap your power key to suspend on laptops</title>
+<guid>https://lickthecheese.github.io/blog.html#you-should-remap-your-power-key-to-suspend-on-laptops</guid>
+<pubDate>Tue, 01 Oct 2019 16:45:52 -0400</pubDate>
+<description><![CDATA[
+Normally, the power button just shuts down Linux, without a prompt
+but if you remap it to suspend, it just suspends
+<br>
+to do this you can edit /etc/systemd/logind.conf
+<br>
+]]></description>
+</item>
+
+
+<item>
 <title>Come chat with me on MATRIX</title>
 <guid>https://lickthecheese.github.io/blog.html#come-chat-with-me-on-matrix</guid>
 <pubDate>Sat, 14 Sep 2019 12:02:20 -0400</pubDate>
