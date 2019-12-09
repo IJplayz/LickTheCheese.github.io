@@ -12,6 +12,19 @@
 <!-- LB -->
 
 <item>
+<title>Welp, i just deleted my /var/lib/</title>
+<guid>https://lickthecheese.github.io/blog.html#welp-i-just-deleted-my-varlib</guid>
+<pubDate>Sun, 08 Dec 2019 22:39:55 -0500</pubDate>
+<description><![CDATA[
+whoops!<br>
+aperently a bunch of important stuff is there and now
+my package manager is broken.... this is going to be a fun week i can
+just tell
+]]></description>
+</item>
+
+
+<item>
 <title>You should remap your power key to suspend on laptops</title>
 <guid>https://lickthecheese.github.io/blog.html#you-should-remap-your-power-key-to-suspend-on-laptops</guid>
 <pubDate>Tue, 01 Oct 2019 16:45:52 -0400</pubDate>
