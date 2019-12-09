@@ -30,6 +30,12 @@ use GRUB as your bootloader.
 <br>
 Open <kbd>/etc/default/grub</kbd> and add <pre>tpm_tis.interrupts=0 modprobe.blacklist=ehci_hcd,ehci_pci</pre> to the <kbd>GRUB_CMDLINE_LINUX_DEFAULT</kbd> line (inside the quote, before the watchdog part if it is there).
 <br>
+basically what this does is disable a few kernel modules that you dont need
+and do things that stop it from successfully waking from a suspend. If you do
+this, you should probably research what these modules do and if you are going
+to use them, this article is just to point new users in the right direction
+to fix their suspending.
+<br>
 rebuild your grub config with <kbd>grub-mkconfig -o /boot/grub/grub.cfg</kbd>
 <br>
 
@@ -37,6 +43,8 @@ rebuild your grub config with <kbd>grub-mkconfig -o /boot/grub/grub.cfg</kbd>
 Source</a>
 ]]></description>
 </item>
+
+
 
 
 
