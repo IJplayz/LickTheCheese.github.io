@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Suspending on a chromebook with Arch</title>
+<link rel='stylesheet' type='text/css' href='../assets/style.css'>
+<meta charset='utf-8'/>
+</head>
+<body>
+<div class='banner-image'></div>
+<div class='wrapper entry'>
+<a href='../blog.html'>Back</a>
+<h1>Suspending on a chromebook with Arch</h1>
+<small>[<a href='../blog.html#suspending-on-a-chromebook-with-arch'>link</a>&mdash;<a href='suspending-on-a-chromebook-with-arch.html'>standalone</a>]</small><br><br>
+When i installed Arch on my Acer c720 Chromebook for the first time, i noticed
+that it would not suspend correctly. It suspended fine, but when it resumed,
+it usually rebooted for some reason.
+<br>
+Since there was not a working solution for me in the Arch Wiki, i am making
+this article so other new Arch users do not also have to hunt through the
+Arch Forums for a few hours as i had to.
+<br>
+Note that this article is for new users of Arch who <i>already</i> looked at
+the Arch Wiki and the solutions did not work. This article also assumes you
+use GRUB as your bootloader.
+<br>
+Open <kbd>/etc/default/grub</kbd> and add <kbd>tpm_tis.interrupts=0 modprobe.blacklist=ehci_hcd,ehci_pci</kbd> to the <kbd>GRUB_CMDLINE_LINUX_DEFAULT</kbd> line.
+<br>
+rebuild your grub config with <kbd>grub-mkconfig -o /boot/grub/grub.cfg</kbd>
+<br>
+
+<br><a href="https://bbs.archlinux.org/viewtopic.php?pid=1411695#p1411695">
+Source</a>
+<footer>by <strong><a href='https://lickthecheese.github.io/'>LickTheCheese</a></strong></footer>
+</div>
+</body>
+
+</html>
