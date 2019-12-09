@@ -3,3 +3,4 @@ AddDescription "Suspending on a chromebook with Arch" "suspending-on-a-chromeboo
 AddDescription "You should remap your power key to suspend on laptops" "you-should-remap-your-power-key-to-suspend-on-laptops.html" #Tue, 01 Oct 2019 16:45:52 -0400
 AddDescription "Welp, i just deleted my /var/lib/" "welp-i-just-deleted-my-varlib.html" #Sun, 08 Dec 2019 22:39:55 -0500
 AddDescription "why do i use lb?" "why-do-i-use-lb.html" #Sun, 08 Dec 2019 22:46:22 -0500
+AddDescription "Pubnixes are cool" "pubnixes-are-cool.html"
