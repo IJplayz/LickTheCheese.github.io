@@ -3,11 +3,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
 <channel>
-<title>Your RSS Feed Title</title>
-<description>A brief description of your RSS feed.</description>
+<title>LickTheCheese's Blog</title>
+<description>Its my blog</description>
 <language>en-us</language>
-<link>http://yourwebsite.com/rss.xml</link>
-<atom:link href="http://yourwebsite.com/rss.xml" rel="self" type="application/rss+xml" />
+<link>https://lickthecheese.github.io/rss.xml</link>
+<atom:link href="https://lickthecheese.github.io/rss.xml" rel="self" type="application/rss+xml" />
 
 <!-- LB -->
 
