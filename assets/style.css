@@ -55,8 +55,15 @@ iframe {
     font-size: 0.8em;
 }
 
-code {
-    background: #464;
+code, kbd, pre {
+    background: #333;
+    color: #4f4;
+}
+
+pre {
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #4f4;
 }
 
 h1 {
