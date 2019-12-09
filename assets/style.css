@@ -93,6 +93,33 @@ button, .button {
     cursor: pointer;
 }
 
+#smedialinks {
+    height: 2em;
+    overflow: hidden;
+    transition: 0.3s;
+    width: 19em;
+    float: right;
+    border-radius: 5px;
+}
+
+#smedialinks:hover {
+    //overflow: auto;
+    height: 12.5em;
+    background-color: #232;
+}
+
+#smedialinks a {
+    width: 26%;
+}
+
+#smedialinks p {
+    margin: 0;
+    background-color: #121;
+    border-radius: 2px;
+    padding: 5px;
+    //display: inline;
+}
+
 .cbox2 {
   float: left;
   width: 49%;
