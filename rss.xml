@@ -12,6 +12,19 @@
 <!-- LB -->
 
 <item>
+<title>Welp, i just deleted my /var/lib/</title>
+<guid>https://lickthecheese.github.io/blog.html#welp-i-just-deleted-my-varlib</guid>
+<pubDate>Sun, 08 Dec 2019 22:39:55 -0500</pubDate>
+<description><![CDATA[
+whoops!<br>
+aperently a bunch of important stuff is there and now
+my package manager is broken.... this is going to be a fun week i can
+just tell
+]]></description>
+</item>
+
+
+<item>
 <title>Suspending on a chromebook with Arch</title>
 <guid>https://lickthecheese.github.io/blog.html#suspending-on-a-chromebook-with-arch</guid>
 <pubDate>Mon, 09 Dec 2019 10:33:30 -0500</pubDate>
@@ -67,17 +80,6 @@ honestly i have no idea i might switch to bashblog to be honest
 
 
 
-<item>
-<title>Welp, i just deleted my /var/lib/</title>
-<guid>https://lickthecheese.github.io/blog.html#welp-i-just-deleted-my-varlib</guid>
-<pubDate>Sun, 08 Dec 2019 22:39:55 -0500</pubDate>
-<description><![CDATA[
-whoops!<br>
-aperently a bunch of important stuff is there and now
-my package manager is broken.... this is going to be a fun week i can
-just tell
-]]></description>
-</item>
 
 
 <item>
