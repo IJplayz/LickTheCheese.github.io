@@ -12,6 +12,17 @@
 <!-- LB -->
 
 <item>
+<title>Yay mastodon</title>
+<guid>https://lickthecheese.github.io/blog.html#yay-mastodon</guid>
+<pubDate>Tue, 10 Dec 2019 17:59:51 -0500</pubDate>
+<description><![CDATA[
+ok i added a rss feed parsing bot to my <a href="https://tilde.zone/@lickthecheese">masto</a><br>
+i will be running it manually so i might forget to run it and my blog posts wont show up, but whatever lol
+]]></description>
+</item>
+
+
+<item>
 <title>Welp, i just deleted my /var/lib/</title>
 <guid>https://lickthecheese.github.io/blog.html#welp-i-just-deleted-my-varlib</guid>
 <pubDate>Sun, 08 Dec 2019 22:39:55 -0500</pubDate>
