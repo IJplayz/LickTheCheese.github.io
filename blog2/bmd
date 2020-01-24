@@ -1,0 +1,37 @@
+#!/bin/bash
+
+# settings
+export POSTDIR='posts'
+export SOURCEDIR='.posts'
+export INDEX='index.html'
+export HEADER='assets/header.html'
+export IHEADER='assets/iheader.html'
+
+export MARKENGINE='cmark'
+# if you do not want to install commonmark, you can
+#use markdown_py, however note that it is significantly slower
+
+# welcome message
+echo 'welcome to bmd'
+echo "lickthecheese's non-chronological flat file blog markdown script"
+echo 'the script will now render all markdown in '$SOURCEDIR
+echo 'so if you havent yet, put stuff in there.'
+
+# make sure dirs exist
+rm $INDEX
+mkdir -p $POSTDIR
+mkdir -p $SOURCEDIR
+cp $IHEADER $INDEX
+
+# main loop
+for fn in ` ls -t $SOURCEDIR | tr " " "\n"`; do
+PURL=$POSTDIR/${fn%??}html
+cp $HEADER $PURL
+$MARKENGINE <$SOURCEDIR/$fn >> $PURL
+
+title=`head -n 2 <$SOURCEDIR/$fn | echo "$(cat -)..." | $MARKENGINE`
+echo "<a class='bmd_link' href='$PURL'><div class='preview'>$title</div></a>" >> $INDEX
+
+done
+echo 'done.'
+

@@ -1,0 +1,49 @@
+
+body {
+background: black;
+font-family: monospace;
+color: #aea;
+}
+
+.preview, .box {
+border: 1px solid #aea;
+padding: 10px;
+border-radius: 10px;
+margin-top: 5px;
+}
+
+.wrapper {
+width: 700px;
+margin: 0 auto;
+}
+
+a {
+text-decoration: none;
+color: #aea;
+}
+
+a:hover {
+text-decoration: underline;
+}
+
+
+code, kbd, pre {
+background: #333;
+color: #aea;
+}
+
+pre {
+padding: 10px;
+border-radius: 2px;
+border: 1px solid #aea;
+}
+
+
+@media screen and (max-width:700px) {
+.wrapper {
+width: 100%;
+}
+}
+
+
+
