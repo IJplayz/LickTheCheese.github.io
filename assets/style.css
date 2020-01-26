@@ -14,7 +14,7 @@ html {
     background-attachment: fixed;
     background-size: 256px;
     font-family: 'Ubuntu', sans-serif; 
-    color: #0f0;
+    color: #aea;
 }
 
 a {
@@ -43,7 +43,7 @@ iframe {
 
 .box, .entry {
     background: #111;
-    border: 3px solid #0f0;
+    border: 3px solid #aea;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 5px 5px 0px #888888;
@@ -64,17 +64,17 @@ iframe {
 
 code, kbd, pre {
     background: #333;
-    color: #4f4;
+    color: #aea;
 }
 
 pre {
     padding: 10px;
     border-radius: 2px;
-    border: 1px solid #4f4;
+    border: 1px solid #aea;
 }
 
 h1 {
-    color: #0F0;
+    color: #aea;
     margin: 0;
     font-weight: 100;
 }
@@ -83,7 +83,7 @@ button, .button {
     background-color: #121;
     border: none;
     border-radius: 5px;
-    color: #00ff00;
+    color: #aea;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
