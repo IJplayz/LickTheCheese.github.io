@@ -30,6 +30,7 @@ cp $HEADER $PURL
 $MARKENGINE <$SOURCEDIR/$fn >> $PURL
 
 title=`head -n 2 <$SOURCEDIR/$fn | echo "$(cat -)..." | $MARKENGINE`
+echo '<title>'`head -n 1 <$SOURCEDIR/$fn | tr "# " " "`'</title>' >> $PURL
 echo "<a class='bmd_link' href='$PURL'><div class='preview'>$title</div></a>" >> $INDEX
 
 done
